@@ -1,0 +1,449 @@
+<html>
+<head>
+<title> brainyclear</title></head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        .squr img{animation-: up; animation-duration:14s; animation-iteration-count: infinite; animation-delay: 2s;}
+        @keyframes up{0%{transform: translate(-100px)}20%{transform: translate(-200px)}40%{transform: translate(-300px)}60{transform: translate(-900px)}80%{transform: translate(-10000px)}100%{transform: translate(-2000px)}}
+        .team{}
+        .tem1{flex-grow: 1; background-color:white;}
+        .tem2{background-color: rgba(0,0,0,0.3); flex-grow: 3; }
+        .tem3{background-color: white; flex-grow: 1;}
+        .squr:hover .hdd{visibility: hidden;}
+        .sgur:hover .c{visibility: visible;}
+        .squr:hover img{transform: translate(-400%); transition:transform 10s; }
+        .s::after{content:""; width:33px; height: 33px; background-color: aqua; position: absolute; bottom: px; top:100px;  }
+        @keyframes move{
+            0%{transform: rotate(20deg); border-radius:20%}40%{transform: rotate(50deg);border-top-right-radius:20%}60%{transform: rotate(80deg);border-top-right-radius:20%; box-shadow:2px 3px 3px 3px gray;}80%{transform: rotate(100deg);border-top-right-radius:20%;box-shadow:2px 3px 3px 3px gray;}100%{transform: rotate(120deg);border-top-right-radius:20%}
+        }
+        .d{width: 20%; height: 10%; margin-top: 20%; background-color: red; margin-bottom: 20%; transition: width 16s; }
+        .d:hover{width: 30%; background: -webkit-linear-gradient(left,green,red); transform-style: preserve-3d;}
+        .o:hover{transition-timing-function: ease-in-out;}
+        .h:hover{transition-timing-function:steps(3,end) ;}
+        .e:hover{transition-timing-function:steps(13,start);}
+
+        *{box-sizing: border-box; }
+        body{margin: 0;padding: 0; box-sizing: border-box;font-family: 'Cormorant Garamond', serif;
+        font-family: 'Roboto', sans-serif; margin-left: 0%;}
+        .hader{background-image: url(https://www.el7lwa.com/wp-content/uploads/2020/08/home-design-28-1-640x430.jpg); 
+         background-repeat: no-repeat; background-size: cover; height:1000px; position: relative;}
+        .hader-first{background-color:rgba(0,0,0,0.6);width: 100%;height: 100%; position: absolute;}
+        .img{margin-left: 50%; width: 7%; height: 70px; margin-top:4%;}
+        .nav-hader{list-style: none; width: 50%; height: 60px; background-color: ; margin:3% 33%; }
+        .nav-hader >li{background-color:; display: inline-block; margin: 3% 4%;}
+        .nav-hader a{ font-weight: 600; text-decoration: none; color: #d8bfbf; font-size:20px; background-color: ; padding: 10px 7px;   }
+        .icon:hover{color: #148eb7;}
+        .nav-hader a:hover{color:white;}
+        .icon{color: deepskyblue;}
+        .parnt:hover .child-nav{visibility: visible;}
+        .parnt:hover .child-nav::after{visibility: visible;}
+        .child-nav{position: absolute; width:20%;
+        background-color: white; height: 6.5%; padding: 1% 4%; box-sizing: border-box; margin: 2%  -15%;
+        visibility:hidden; transition:visibility 1s; }
+        .child-nav::after{content:""; position: absolute; background-color: white; width: 12%; height: 57%; transform: rotate(40deg); top: -10%; visibility: hidden;transition:visibility 1s;}
+        .contant{background-color: ; width: 50%; height:600px; margin:5% 4%; }
+        .hader-contant{color: white; font-family: inherit; letter-spacing: 1px; font-size: 16px; text-transform: uppercase;}
+        .contant h3{font-weight: bolder;  color: white; font-size: 95; margin-bottom: -12%; text-transform: uppercase; letter-spacing: 2px; word-spacing: 14px;font-family: 'Cormorant Garamond',}
+        .first{margin: 4% 22px -8% 5%; transform: translateZ(-520px;)}
+        .footer{font-size:20px; color: white; display: block; text-transform: capitalize; margin-top: 40px; border: 3px solid white; width: 30%; padding: 1% 2%; box-sizing: border-box; height: 50px; font-family: inherit; text-decoration: none; font-weight:600;letter-spacing: 5px;text-transform: uppercase;  }
+        a{text-decoration: none;}
+        .footer:hover{background-color: white; color: black; transition:background-color 1s;text-transform: capitalize;  }
+        .secand-section{width: 90%; height: }
+        .parg-cont{margin-top: 100px; color: white;  font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Cormorant Garamond', serif; text-align: ; width:100%; font-size: 21px; line-height: 27px;}
+        .secand-hader-section{width: 40%; height: 300px; margin:2% 30% 0% 30%; background-color: ;}
+        .secand-hader-section *{margin-bottom: 5%; text-align: center;}
+        .secand-hader-section h5,h6{margin-bottom: 1%; font-size: 20px; color:darkgray;}
+        .ico:hover{background-color: aqua;}
+        .secand-hader-section h5{font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Cormorant Garamond', serif;  }
+        .secand-hader-section h6{font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Cormorant Garamond', serif; font-style: italic;}
+        .secend-hader-cont{column-count: 5;column-gap: 2%; background-color: ; height: 600px;margin-top: 0px; width: 93%; margin-left: 5%;}
+        .secand-cont{width: 100%; background-color: ;height: 100%; }
+        .par-footer{text-align: center; text-transform: uppercase; font-family: 'Akaya Telivigala', cursive; color: black;}
+        .footer-footer{height: 300px; background-color: black; width: 100%; margin-top: 150px; column-count: 3; column-gap: 10%; padding:5% 7%;}
+        .footer-footer-cont{background-color: ; height: 90%; width: 90%;  }
+        .footer-img  {width: 100%;height: 100%;}
+        .footer-img img{padding: 2%; margin-left: 20%;}
+        ul{list-style: none;}
+        .footer-nav a {color: white; }
+        .footer-nav  li{margin-bottom: 11%; display: block; }
+        .footer-nav a:hover{color: #cbb1b1;}
+        .last a li{text-transform: capitalize; margin-bottom:14px; font-weight: 500px;}
+        .firs{margin-bottom: 20px;}
+        .ico{color: aqua;} 
+        .span-footer{color: #887979; display: block;  text-align: center;}
+        .ul-footer{margin-left: 13%;}
+        .uiqe *{margin-bottom: -1%;}
+        .uiqe h5{margin-bottom: -6%;} 
+         .uiqe h6{font-family: 'Akaya Telivigala', cursive;
+        font-family: 'Lobster', cursive;}
+        .sec-uiqe p{font-family: 'Akaya Telivigala', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Source Serif Pro', serif;}
+         
+.div10 *{background-color: #f5f4f4;border-radius:3px; outline: none;}
+.div10 button{display: block; background-color: deepskyblue; color: white; padding: 10px 19px; text-transform: capitalize; margin-top: 9px; margin-left: 40%; 
+    border: none; }
+        .div10 .text1{width: 94%; margin-top: 10px; display: block; padding: 20px 50px; background-color: ;}
+.div10{width: 60%; background-color: ; margin-left: 24%; height: 300px;}
+.div10 input{width: 45%; height: 10%; background-color: #f5f2f2; border: none; margin-right: 3%; display: inline-block; padding: 20px 50px;} }
+ {width: 100%; height: 5%; background-color: gray;}
+        .text {background-color:  #f5f2f2; margin-top: 13px; width: 95%; border: none; padding: 20px 50px; resize: none;}}
+    </style>
+    <body>
+    <div class="hader"><div class="hader-first">
+        <div class="img"><img src="https://brainyclear.date/wp-content/uploads/2020/12/cropped-3f63c7ec-ad84-47c6-b1f1-7dcde8540e50_200x200-72x50.png" class="img-hader"   width="100%" height="100%">
+        </div>
+        
+        
+        
+        
+        <!--start--> 
+        
+        <style> /*.parant-buying:hover .buying{visibility: visible;} */ .parant-buying{position: relative; left:90%; top: -10%; width: 10%; background-color: ;  }.buying{position: absolute; width: 200%; height: 1000px; background-color: #d8afaf; left: -100%; visibility: hidden;}.buying h2{font-size:15px; display: inline-block; margin-left:13%;} </style>
+        <h2  class="parant-buying"><i class=" co2 fas fa-align-justify fa-2x"></i><div  class="buying"><h2>section buying</h2><i class="fas fa-shopping-bag fa-lg"></i></div></h2>
+        <script src="scriptaboutbrinyclear.js"></script>
+
+       
+        <!--end-->
+        
+        
+        
+        
+        <nav class="nav-hader">
+        <li><a href="brainyclear.html">home</a></li>
+        <li><a href="https://brainyclear.date/shop/?orderby=price-desc">shope</a></li>
+        <li><a href="https://brainyclear.date/about-us/">about us</a></li>
+        <li  class="parnt"><a><i class=" icon fas fa-shopping-bag fa-2xu"></i></a>
+            <ul class="child-nav">No products in the cart.</ul></li>
+        </nav> 
+        <div  class="contant"><h2 class="hader-contant first">a whole new look</h2>
+            <h3 >best</h3>
+            <h3>furniture</h3>
+            <h3>you need</h3>
+            <p  class="parg-cont">Organic Blazes helps you choose new and modern design furniture in a promising price range and best quality for your home or office.</p>
+
+
+            <a href="#"><span class="footer">show here</span></a>
+</div>
+        </div></div>
+        <div class="secand-hader-section">
+        <h6  class="hader-secend">A perfect collection for your office</h6>
+        <h1>SEARCH FURNITURE DESIGN HERE</h1>
+         <h5>An online platform where you can find any</h5>
+        <h5>kind of furniture for your home and offices.</h5>
+
+        </div>
+        <section class="secend-hader-cont">
+         <section class="secand-cont">
+             <img src="https://www.ounousa.com/wp-content/uploads/fly-images/153995/160117083753578-638x654.jpg" width="100%" height="60%" alt="this is sofa">
+             <div class="footer-secand">
+            <span class="span-footer">sofa</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                 <span class="span-footer">$459.000</span>
+         </div></section>
+            
+        <section class="secand-cont">
+            <img  src="https://www.sayidaty.net/sites/default/files/2017/11/07/3045251-1472159192.jpg" width="100%" height="60%"  alt="this is sofa">
+            <div class="footer-secand">
+            <span class="span-footer">bad</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer"><i class="far fa-star ico">
+                    </i><i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                <span class="span-footer">$459.000</span>
+           </div></section>
+            <section class="secand-cont">
+                <img src="https://www.almstba.com/imgcache/almastba.com_1429875338_564.jpg" width="100%" height="60%"  alt="this is sofa">
+                <div class="footer-secand">
+               <span class="span-footer">sofa</span>
+               <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                   <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                  <ul class="ul-footer">
+                      <i class="far fa-star ico"></i>
+                      <i class="far fa-star ico"></i>
+                      <i class="far fa-star ico"></i>
+                      <i class="far fa-star ico "></i></ul>
+                <span class="span-footer">$459.000</span>
+         </div></section>
+        <section class="secand-cont">
+            <img src="https://lh3.googleusercontent.com/proxy/-8uPIWKiSSXaoTbNgt8TU-39oN3Iq_QgtgnxGoEejHYEMyydD_lUrmgKxvLRVkoTbEgLaU7lKX_1yCn0fbrAHI3cdcZR56BiKsjMotdm"   alt="this is sofa" width="100%" height="60%">
+            <div class="footer-secand">
+            <span class="span-footer">sofa</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">SOLID WOOD BED AMERICAN COUNTRY LEATHER SOFT 1.8 M DOUBLE BED MASTER BEDROOM OAK LEATHER ART 1.5M WEDDING BED</p></a>
+                    <ul class="ul-footer">
+                        <i class="far fa-star ico"></i>
+                        <i class="far fa-star ico"></i>
+                        <i class="far fa-star ico"></i>
+                        <i class="far fa-star ico "></i></ul>
+                      <span class="span-footer">$459.000</span>
+         </div></section>
+        <section class="secand-cont">
+            <img src="http://www.hayah.cc/forum/imgcache/212403.png" width="100%" height="60%"  alt="this is sofa">
+            <div class="footer-secand">
+            <span class="span-footer">sofa</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                <span class="span-footer">$459.000</span>
+               </div></section></section>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--this is work-->
+        <style>body{overflow-x: hidden;}.div{position: relative; width: 100%; height: 100%; background-color: ; left:3%;top: 3%;  } .div1{position: absolute; width: 14%; height: 10%; background-color: black; border-radius: 50%;   left:-5%; top: -1px;padding:2% 10% 0px 3%; box-sizing: border-box;}
+            .third-section{height: 380px; background-color: #efe3e3; column-count: 6; column-gap: 2%; width: 200%; overflow: hidden;}span{font-size: 16px; color: red;}.ul{color: deepskyblue;visibility: ;left: 0%; top: -1%;  } .ul1 li{display: inline-block;} .ul1{width: 80%; height:10%; left: 10%; }.ana1{visibility: hidden;}  .ana:hover .ana1{visibility: visible;}
+        </style>
+                <div class="secand-hader-section">
+        <h6  class="hader-secend">A perfect collection for your office</h6>
+        <h1>SEARCH FURNITURE DESIGN HERE</h1>
+         <h5>An online platform where you can find any</h5>
+        <h5>kind of furniture for your home and offices.</h5>
+
+        </div>
+        <div  class="third-section"><div class="div"><img src="https://lyricss.cc/wp-content/uploads/2018/07/3312.gif" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div><div class="div"><img src="https://i.ytimg.com/vi/P41NkNZYYyo/hqdefault.jpg" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div><div class="div"><img src="http://2.bp.blogspot.com/-JmTpqAi9CCs/Ug6iOhzCvNI/AAAAAAAABtA/Lk4jn22OFCo/s1600/%D8%B5%D9%88%D8%B1%D8%A9+%D9%84%D8%B9%D8%A8%D8%A9+%D8%A3%D8%B7%D9%81%D8%A7%D9%84+%D8%A3%D8%B1%D8%B6%D9%8A%D8%A9+%D9%88%D8%A7%D9%84%D8%B7%D9%81%D9%84+%D8%AC%D8%A7%D9%84%D8%B3.jpg" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div><div class="div"><img src="http://www.swishschool.com/w/wp-content/uploads/2016/08/%D8%A7%D8%B7%D9%81%D8%A7%D9%84-%D9%8A%D9%84%D8%B9%D8%A8%D9%88%D9%86-2.jpg" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div><div class="div"><img src="https://whatt.cc/wp-content/uploads/2018/08/1570.jpg" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div><div class="div"><img src="https://cutee.net/wp-content/uploads/2018/05/6340.jpg" height="80%"  width="100%"><ul class=" ul1 " style="position: relative; top: -1%;">
+                   <li  ><i class="far fa-star ico co ana"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                                       <li><i class="far fa-star ico co"></i></li> 
+<ul style="position: absolute; width: 100%; height:100 %" class="ul" >
+                   <li class=""><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                   <li><i class="far fa-star ico co"></i></li> 
+                             <li><i class="far fa-star ico co"></i></li> 
+</ul></ul><div  class="div1"><a href="#" style="color: white; font-size: 10px; font-weight: bolder;   width: 30%"><span>+</span>99$</a></div></div></div>
+        <script>
+        var rabit=document.querySelector(".div1");
+       
+        </script>
+        
+        
+        
+        
+        <!--end work-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                <div class="secand-hader-section uiqe">
+              <h6  class="hader-secend">Select our latest collection </h6>
+            <h1>LATEST PRODUCTS</h1>
+            <h5>Checkout our new collection for your office</h5>
+            <h5>and home</h5>
+
+        </div>
+        <section class="secend-hader-cont sec-uiqe">
+         <section class="secand-cont">
+             <img src="https://www.hiamag.com/sites/default/files/styles/ph2_960_600/public/article/05/11/2017/6155266-1055397993.jpg" width="100%" height="60%" alt="this is sofa">
+             <div class="footer-secand">
+            <span class="span-footer">sofa</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+             <ul class="ul-footer">
+                 <i class="far fa-star ico"></i>
+                 <i class="far fa-star ico"></i>
+                 <i class="far fa-star ico"></i>
+                 <i class="far fa-star ico "></i></ul>
+               <span class="span-footer">$459.000</span>
+             </div></section>
+            <section class="secand-cont">
+            <img  src="https://www.mexatk.com/wp-content/uploads/2014/11/%D8%B7%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%B7%D8%B9%D8%A7%D9%85-%D8%A8%D8%A7%D9%84%D8%B5%D9%88%D8%B1.jpg" width="100%" height="60%"  alt="this is sofa">
+            <div class="footer-secand">
+            <span class="span-footer">bad</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                <span class="span-footer">$459.000</span>
+            </div></section>
+            <section class="secand-cont">
+                <img src="https://brainyclear.date/wp-content/uploads/2020/07/Screenshot_2810-300x300.png" width="100%" height="60%"  alt="this is sofa">
+                <div class="footer-secand">
+                <span class="span-footer">sofa</span>
+                  <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                 <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                <span class="span-footer">$459.000</span>
+         </div></section>
+          <section class="secand-cont">
+            <img src="https://www.mexatk.com/wp-content/uploads/2014/11/%D8%B5%D9%88%D8%B1-%D8%B7%D8%A7%D9%88%D9%84%D8%A7%D8%AA-%D8%B7%D8%B9%D8%A7%D9%85.jpg"   alt="this is sofa" width="100%" height="60%">
+            <div class="footer-secand">
+            <span class="span-footer">sofa</span>
+              <a  href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+              <p class="par-footer">SOLID WOOD BED AMERICAN COUNTRY LEATHER SOFT 1.8 M DOUBLE BED MASTER BEDROOM OAK LEATHER ART 1.5M WEDDING BED</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"> </i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i></ul>
+                   <span class="span-footer">$459.000</span>
+               </div></section>
+              <section class="secand-cont">
+               <img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png" width="100%" height="60%"  alt="this is sofa">
+               <div class="footer-secand">
+               <span class="span-footer">sofa</span>
+              <a href="https://brainyclear.date/product/48-x-26cm-portable-home-use-assembled-folding-table-black/">
+                  <p class="par-footer">48 X 26CM PORTABLE HOME USE ASSEMBLED FOLDING TABLE BLAC</p></a>
+                <ul class="ul-footer">
+                    <i class="far fa-star ico"></i>
+                   <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico"></i>
+                    <i class="far fa-star ico "></i>
+                   </ul>
+                <span class="span-footer">$459.000</span>
+              </div></section></section>
+         <form id="blog" class="div10" method="past" action="h2.html" autocomplete> <input class="name" name="user" type="text" placeholder="Name"   required>
+             <input  class="email" type="email" placeholder="Email" name="email" 
+                    required  >
+             <input  class="text1" placeholder="Subject" type="text" name="subject" >
+             <textarea class="text" 
+                       placeholder="Masage" rows="2" cols="129"></textarea>
+             <button class="btn4" type="submit"> sent masage</button>
+            
+            
+            </form>  
+           <footer  class="footer-footer"><div class="footer-footer-cont">
+            <ul class="footer-nav">
+             <a href=".hader-first">
+                 <li class="li-footer">contact details</li></a>
+              <a href=".hader">
+                  <li class="li-footer">
+                      <i class="fas fa-envelope"></i>office@brinyclear.date</li></a>
+                <a href=".hader"> <li class="li-footer"><i class="fas fa-map-marker-alt"></i>rakefer<sup>3</sup>,ramat hasharon,47<sub>2</sub>7<sup>60</sup>3</li></a>
+                 </ul></div>
+              <div class="footer-img ">
+             <img src="https://brainyclear.date/wp-content/uploads/2020/12/cropped-3f63c7ec-ad84-47c6-b1f1-7dcde8540e50_200x200-72x50.png" width="50%"  height="60%" >
+            </div><div  class="footer-footer-cont last">  <ul class="footer-nav">
+             <a href=".hader-first"><li class="li-footer firs" >quick links</li></a>
+            <a href=".hader"> <li class="li-footer" >privacy policy</li></a>
+            <a href=".hader"> <li class="li-footer" >trems of use</li></a>
+                <a href=".hader"> <li class="li-footer" >contact us</li></a>
+            </ul></div></footer>
+        
+        <div style=" background-color: yellow; height: 200px;margin-bottom: 88px; height: ; display: flex; margin-left: 30%;"><div class=" "style="background-color: aqua; height:100% ;  width: 20%; animation: move is ease 3; "></div>
+            <div class=" "style="background-color: green; height:;height:100% ;  width: 20%; "></div>
+        <div class="" style="background-color: royalblue;height:100% ;  width: 20%;flex-wrap: wrap; height: "></div>
+        <div class=""style="background-color: brown;height:100% ;  width: 20%;  height: ; "></div></div>
+        <div class=""style="background-color: #26d926;height:100% ;  width: 3%;  height:33px ;  margin-top: 100px;margin-left: 81%; margin-bottom: 30px; animation-name: move; animation-duration:2s; animation-iteration-count: infinite; "></div>
+<div style="background-color:grey;  height:1% ;  width: 6%; margin-left:80%; box-shadow: 4PX 4PX 19PX 2PX #9b2323; margin-bottom: 100px;"></div>
+       
+    <img  style="margin-left: 30%;"    src="https://www.dnb.com/content/dam/english/image-library/Modernization/technology/optimized-dnbhoovers3.gif">
+        
+        
+        <h2 style="width: 22222px; background-color: aqua; overflow-x: scroll;  margin-left: 30%; ">عملائنا الأعزاء تم البدء بخدمة التوصيل المنزلي بمناطق سكاكا – تبوك – خميس مشيط | الآن يمكنك الطلب بكل سهولة عن طريق خدمة سهلناها لك بالضغط هنا | يمكنك تصفح مجلة عروض الموقع الإلكتروني من هنا</h2>
+        <div  class="squr"  style="width: 33%; height: 300px; background-color: red; position: relative;bottom: 100px; display: flex;flex-flow: row;  "><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><img src="https://brainyclear.date/wp-content/uploads/2020/07/271-300x300.png"><div style="width: 80%; height: 100%; background-color: white; position: absolute; "><i style="margin-left: 95%; margin-top: 40%; "  class=" c fas fa-angle-double-right fa-lg"></i></div>
+            <div  class="hdd" style="width: 1000%; height: 100%; background-color: rgba(0,0,0,0.3); position: absolute; left: 80%; visibility: visible;"></div><div style="width: 80%; height: 100%; background-color: white; position: absolute; left: 240%;"><i style="margin-left: 0%; margin-top: 40%; "  class=" iven fas fa-angle-double-left fa-lg"></i></div></div>
+        
+        <div  class="squr" style="position: relative; width: 100%; height: 300px; background-color: ; top:100px; bottom:100px; display: flex; flex-flow: row; overflow-x: hidden; overflow-y: hidden;">
+                 <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg"  >
+                 <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg" >
+                 <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg" >
+                 <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg" >
+                 <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg" >
+            <img   src="http://zucleaning.com/wp-content/uploads/2017/04/American-Sofa1-e1491218573732.jpg" >
+
+<div style="position: absolute; width: 100%; height: 100%; background-color: ; display: flex; flex-flow: row; top:0%;"><div class="team tem1"></div><div class="team tem2" style="background-color: rgba(0,0,0,0.6);"></div><div class="team tem3"></div></div>
+        </div>
+            
+            <div  style="position: relative; top: 19%; width: 60%; height:300px; "><img  src="https://www.fekera.com/wp-content/uploads/2020/06/157322_1570526069.jpg" width="100%" height="100%"><div  style="position: absolute; background:-webkit-gradient-linear(top,red,red); width: 100%; height: 100%; background-color: ;top: 0;"></div></div>
+        
+        
+     <script  src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>        
+    </body>
+</html>
